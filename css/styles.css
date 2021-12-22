@@ -10,67 +10,103 @@
 body {
   margin: 0;
   background-color: hsl(233, 47%, 7%);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
 }
 
-.container{
-    background-color: hsl(244, 38%, 16%);
-    color: hsl(0, 0%, 100%);
-    height: 27.875rem;
-    width: 70rem;
-    margin: 10% auto;
-
-   
+.container {
+  background-color: hsl(244, 38%, 16%);
+  color: hsl(0, 0%, 100%);
+  height: 27.875rem;
+  width: 70rem;
+  margin: 10% auto;
 }
 
-.description{
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    margin-bottom: 50px;
-    
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10%;
+  line-height: 2;
 }
 
-.title{
-    font-size: 37px;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 30px;  
-    width: 450px;
- 
+.title {
+  font-size: 37px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10%;
+  width: 120%;
 }
 
-.title span{
-    color: hsl(277, 64%, 61%);
+.title span {
+  color: hsl(277, 64%, 61%);
 }
 
-img{
-    filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%)) saturate(250%)  ; 
-    float: right;
-    padding: 0;
-    
+img {
+  filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%)) saturate(250%);
+  float: right;
+  padding: 0;
 }
 
-.info{
-    padding: 70px 40px 10px 70px;
-    width: 22rem;
-   
+.info {
+  padding: 70px 40px 10px 70px;
+  width: 35%;
 }
 
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
 
-.stats{
+.stats-box p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    height: 100%;
+    width: 75%;
+    border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     
+    
+  }
+
+  .description{
+      margin: 0;
+      width: 80%;
+      padding-left: 25px;
+  }
+
+  .title{
+      height: 130px;
+      width: 320px;
+      font-size: 34px;
+      margin-bottom: 10px;
+     
+      
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px;
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
+  }
+
+  .info{
+      width: 320px;
+      padding: 30px 25px;
+      text-align: center;
+     
+  }
+
+  .stats{
+      flex-direction: column;
+  }
+
 }
-
-.stats-box p{
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 12px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-}
-
-
-
