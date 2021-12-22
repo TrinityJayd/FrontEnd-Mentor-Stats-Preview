@@ -29,8 +29,8 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ![My Solution](Solution.PNG)
 
-Solution URL: https://www.frontendmentor.io/solutions/stats-preview-solution-zlC5-hKpx
-Live Site URL: https://trinityjayd.github.io/FrontEnd-Mentor-Stats-Preview/
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-solution-zlC5-hKpx
+- Live Site URL: https://trinityjayd.github.io/FrontEnd-Mentor-Stats-Preview/
 
 ### Built with
 
