@@ -65,7 +65,7 @@ img {
   font-weight: 400;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   body{
       display: flex;
       justify-content: center;
