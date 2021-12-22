@@ -65,13 +65,21 @@ img {
   font-weight: 400;
 }
 
-@media screen and (max-width: 560px) {
-  .container {
+@media screen and (max-width: 375px) {
+  body{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+    .container {
     height: 100%;
-    width: 75%;
+    width: 90%;
     border-radius: 20px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
     
   }
@@ -79,12 +87,12 @@ img {
   .description{
       margin: 0;
       width: 80%;
-      padding-left: 25px;
+      padding-left: 10%;
   }
 
   .title{
       height: 130px;
-      width: 320px;
+      width: 100%;
       font-size: 34px;
       margin-bottom: 10px;
      
@@ -99,8 +107,8 @@ img {
   }
 
   .info{
-      width: 320px;
-      padding: 30px 25px;
+      width:95%;
+      padding: 10px 25px;
       text-align: center;
      
   }
