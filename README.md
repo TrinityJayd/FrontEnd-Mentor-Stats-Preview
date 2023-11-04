@@ -41,5 +41,4 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 - Website - [Trinity Tiratram](https://trinityjayd.github.io/)
 - Frontend Mentor - [@TrinityJayd](https://www.frontendmentor.io/profile/TrinityJayd)
-- Twitter - [@trinity_jayd](https://twitter.com/trinity_jayd)
 
